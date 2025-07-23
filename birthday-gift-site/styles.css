@@ -1,18 +1,15 @@
-/*
-Challenge:
-Style the app according to the provided design.
-The font is called "Happy Monkey" and can be
-embedded via Google Fonts.
-
-Don't know how to make an image round? Google it!
-Also, consider how you should select the image 
-(class vs id vs element selector).
-*/
 body{
     text-align: center;
     font-family:"Happy Monkey", system-ui;
     background: #a2d2ff;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
 }
 
 #bff-img{
@@ -21,6 +18,6 @@ body{
     border: thick solid #EFB0C9;
 }
 
-h1,h2,h4{
-    text-shadow: 1px 1px black;
+h2,h4{
+    background: #EFB0C9;
 }
